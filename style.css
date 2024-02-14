@@ -98,6 +98,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform-style: preserve-3d;
+  transform: perspective(1500px);
 }
 .sneaker img {
   width: 20rem;
